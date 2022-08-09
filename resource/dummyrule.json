@@ -1,0 +1,68 @@
+{
+    "Detail_Rule": {
+      "RULE1": {
+        "passed": true,
+        "skipped": false,
+        "detail": {
+          "id": 12345678,
+          "priority": "error",
+          "description": "this is a dummy role and what we should get",
+          "link": "dummy-dummy@dummy.com"
+        }
+      },
+      "RULE2": {
+        "passed": false,
+        "skipped": false,
+        "detail": {
+          "id": 2345643,
+          "priority": "warning",
+          "description": "2 this is a dummy role and what we should get 2",
+          "link": "2dummy-2dummy@2dummy.2com"
+        }
+      },
+      "RULE3": {
+        "passed": true,
+        "skipped": true,
+        "detail": {
+          "id": 3456778,
+          "priority": "warning",
+          "description": "3 this is a dummy role and what we should get 3",
+          "link": "3dummy-dummy@3dummy.com"
+        }
+      },
+      "RULE4": {
+        "passed": false,
+        "skipped": false,
+        "detail": {
+          "id": 456789,
+          "priority": "error",
+          "description": "4 this is a dummy role and what we should get 4",
+          "link": "4dummy-dummy@4dummy.com"
+        }
+      },
+      "RULE5": {
+        "passed": false,
+        "skipped": true,
+        "detail": {
+          "id": 567891,
+          "priority": "error",
+          "description": "5 this is a dummy role and what we should get 5",
+          "link": "5dummy-dummy5@dummy.com"
+        }
+      },
+      "RULE6": {
+        "passed": true,
+        "skipped": false,
+        "detail": {
+          "id": 6433456,
+          "priority": "warning",
+          "description": "6 this is a dummy role and what we should get 6",
+          "link": "6dummy-dummy@6dummy.com"
+        }
+      }
+    },
+    "Meta_Data": {
+      "total_rule": 6,
+      "description": "this is the meta data"
+    }
+  }
